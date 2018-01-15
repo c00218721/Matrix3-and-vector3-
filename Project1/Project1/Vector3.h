@@ -7,6 +7,7 @@
 #include <iostream>
 #include <math.h>
 #include <string>
+#include "Matrix3.h"
 
 class Vector3
 {
@@ -61,5 +62,11 @@ public:
 	//an overload operator ^ to return the vector product of 2 vectors
 	const Vector3 operator^ (Vector3 v1);
 
+	//an overload operator * to return the product of the matrix by a vector
+	//brought this over from the matrix class cos it wasnt working properly
+	const Vector3 operator* (Matrix3 M1);
+
+
 	 std::string ToString();
 };
+

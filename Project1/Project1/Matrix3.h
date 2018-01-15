@@ -1,13 +1,15 @@
 //callum lynch
 //login: c00218721
 
-
 #include <iostream>
+#include "Vector3.h"
 
 class Matrix3
 {
 
 public:
+	Vector3 vector3;
+
 	//class has nine variables 3 for rows an dcolumns
 
 	double A11;
@@ -25,56 +27,22 @@ public:
 	Matrix3();
 
 	//constructer 2
-	Matrix3
+	Matrix3(Vector3 Row1, Vector3 Row2, Vector3 Row3);
 
+	//constructaor 3
+	Matrix3(	double _A11, double _A12, double _A13,
+				double _A21, double _A22, double _A23,
+				double _A31, double _A32, double _A33);
 
+	//an overload operaor * to return the product of the matrix by a vector
+	const Vector3 operator* (Vector3 v1);
+
+	//a method to transpose a given matrix
+	const Matrix3 Transpose();
 };
 
 
 
-//		// Constructor 2
-//		public Matrix3(Vector3 Row1, Vector3 Row2, Vector3 Row3)
-//		{  // To allow 3 rows of vectors to be declared as a matrix
-//			this.A11 = Row1.X;
-//			this.A12 = Row1.Y;
-//			this.A13 = Row1.Z;
-//			this.A21 = Row2.X;
-//			this.A22 = Row2.Y;
-//			this.A23 = Row2.Z;
-//			this.A31 = Row3.X;
-//			this.A32 = Row3.Y;
-//			this.A33 = Row3.Z;
-//		}
-//		// Constructor 3
-//		public Matrix3(double _A11, double _A12, double _A13,
-//			double _A21, double _A22, double _A23,
-//			double _A31, double _A32, double _A33)
-//		{// to allow nine double values
-//			A11 = _A11;
-//			A12 = _A12;
-//			A13 = _A13;
-//			A21 = _A21;
-//			A22 = _A22;
-//			A23 = _A23;
-//			A31 = _A31;
-//			A32 = _A32;
-//			A33 = _A33;
-//		}
-//
-//		public static Vector3 operator *(Matrix3 M1, Vector3 V1)
-//		{// An overloaded operator * to return the  product of the matrix by a vector
-//			return new Vector3(M1.A11 * V1.X + M1.A12 * V1.Y + M1.A13 * V1.Z,
-//				M1.A21 * V1.X + M1.A22 * V1.Y + M1.A23 * V1.Z,
-//				M1.A31 * V1.X + M1.A32 * V1.Y + M1.A33 * V1.Z);
-//		}
-//
-//		public static Vector3 operator *(Vector3 V1, Matrix3 M1)
-//		{// An overloaded operator * to return the  product of the matrix by a vector
-//			return new Vector3(M1.A11 * V1.X + M1.A21 * V1.Y + M1.A31 * V1.Z,
-//				M1.A12 * V1.X + M1.A22 * V1.Y + M1.A32 * V1.Z,
-//				M1.A13 * V1.X + M1.A23 * V1.Y + M1.A33 * V1.Z);
-//		}
-//
 //		public static Matrix3 Transpose(Matrix3 M1)
 //		{// a method to transpose a given matrix
 //			return new Matrix3(M1.A11, M1.A21, M1.A31,

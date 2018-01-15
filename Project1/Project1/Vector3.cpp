@@ -91,6 +91,13 @@ const Vector3 Vector3::operator^(Vector3 v1)
 	return Vector3(y * v1.z - z * v1.y, z * v1.x - x * v1.z, x * v1.y - y * v1.x);
 }
 
+const Vector3 Vector3::operator*(Matrix3 M1)
+{
+	return Vector3(		M1.A11 * X() + M1.A21 * Y() + M1.A31 * Z(),
+						M1.A12 * X() + M1.A22 * Y() + M1.A32 * Z(),
+						M1.A13 * X() + M1.A23 * Y() + M1.A33 * Z());
+}
+
 std::string Vector3::ToString()
 {
 	return std::string("(" + std::to_string(x) + "," + std::to_string(y) + "," + std::to_string(z) + ")");
