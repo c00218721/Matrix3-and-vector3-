@@ -43,7 +43,7 @@ Matrix3::Matrix3(double _A11, double _A12, double _A13, double _A21, double _A22
 	A33 = _A33;
 }
 
-const Vector3 Matrix3::operator*(Vector3 v1)
+const Vector3 Matrix3::operator *(Vector3 v1)
 {
 	return Vector3( A11 * v1.X() + A12 * v1.Y() + A13 * v1.Z(),
 					A21 * v1.X() + A22 * v1.Y() + A23 * v1.Z(),
@@ -57,21 +57,21 @@ const Matrix3 Matrix3::Transpose()
 					A13, A23, A33);
 }
 
-const Matrix3 Matrix3::operator+(Matrix3 m1)
+const Matrix3 Matrix3::operator +(Matrix3 m1)
 {
 	return Matrix3(	A11 + m1.A11, A12 + m1.A12, A13 + m1.A13,
 					A21 + m1.A21, A22 + m1.A22, A23 + m1.A23,
 					A31 + m1.A31, A32 + m1.A32, A33 + m1.A33);
 }
 
-const Matrix3 Matrix3::operator-(Matrix3 m1)
+const Matrix3 Matrix3::operator -(Matrix3 m1)
 {
 	return Matrix3( A11 - m1.A11, A12 - m1.A12, A13 - m1.A13,
 					A21 - m1.A21, A22 - m1.A22, A23 - m1.A23,
 					A31 - m1.A31, A32 - m1.A32, A33 - m1.A33);
 }
 
-const Matrix3 Matrix3::operator*(double x)
+const Matrix3 Matrix3::operator *(double x)
 {
 	Matrix3 answer = Matrix3();
 
@@ -118,7 +118,7 @@ Vector3 Matrix3::col(int i)
 	}
 }
 
-const Matrix3 Matrix3::operator*(Matrix3 m1)
+const Matrix3 Matrix3::operator *(Matrix3 m1)
 {
 	Matrix3 answer = Matrix3();
 
@@ -208,7 +208,7 @@ const Matrix3 Matrix3::scale(double dx, double dy)
 	return answer;
 }
 
-const Matrix3 Matrix3::operator-()
+const Matrix3 Matrix3::operator -()
 {
 	return Matrix3(A11 * -1, A12 * -1, A13 * -1, A21 * -1, A22 * -1, A23 * -1, A31 * -1, A32 * -1, A33 * -1);
 }

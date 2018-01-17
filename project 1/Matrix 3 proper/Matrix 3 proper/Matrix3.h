@@ -1,17 +1,22 @@
 //callum lynch
 //login: c00218721
 
+#ifndef m3
+#define m3
+
 #include <iostream>
 #include "Vector3.h"
 #include <math.h>
+
+class Vector3;
 
 class Matrix3
 {
 
 public:
-	Vector3 vector3;
 	
-
+	
+	
 	const double PI = 3.14159;
 	//class has nine variables 3 for rows an dcolumns
 
@@ -38,19 +43,19 @@ public:
 				double _A31, double _A32, double _A33);
 
 	//an overload operaor * to return the product of the matrix by a vector
-	const Vector3 operator* (Vector3 v1);
+	const Vector3 operator * (Vector3 v1);
 
 	//a method to transpose a given matrix
 	const Matrix3 Transpose();
 
 	// An overloaded operator + to return the  sum of two matrix 
-	const Matrix3 operator+(Matrix3 m1);
+	const Matrix3 operator +(Matrix3 m1);
 
 	//an overload operator - to return the differneces of a matrix
-	const Matrix3 operator-(Matrix3 m1);
+	const Matrix3 operator -(Matrix3 m1);
 
 	//an overload operator * to multiply the product by a scalr
-	const Matrix3 operator* (double x);
+	const Matrix3 operator * (double x);
 
 	//a method to return a Row as a vector 3
 	Vector3 row(int i);
@@ -59,7 +64,7 @@ public:
 	Vector3 col(int i);
 
 	//an overload operator * to return the product of 2 matrixes
-	const Matrix3 operator* (Matrix3 m1);
+	const Matrix3 operator * (Matrix3 m1);
 
 	//method to return the determinant of a  3x3 matrix
 	const double determinant();
@@ -74,7 +79,7 @@ public:
 	const Matrix3 scale(double dx, double dy);
 
 	//multiplies everything by -1
-	const Matrix3 operator-();
+	const Matrix3 operator -();
 
 	const Matrix3 scale3D(double dx);
 
@@ -90,3 +95,5 @@ public:
 	//rotates z axis
 	const Matrix3 RotationZ(int _angle);
 };
+
+#endif // !m3

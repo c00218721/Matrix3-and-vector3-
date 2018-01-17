@@ -1,0 +1,148 @@
+﻿  Vector3.cpp
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(12): error C3646: 'vector3': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(33): error C2061: syntax error: identifier 'Vector3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(33): error C2535: 'Matrix3::Matrix3(void)': member function already defined or declared
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(30): note: see declaration of 'Matrix3::Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C2143: syntax error: missing ';' before '*'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C2061: syntax error: identifier 'Vector3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C3646: 'row': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C2059: syntax error: '('
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C2238: unexpected token(s) preceding ';'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C3646: 'col': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C2059: syntax error: '('
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C2238: unexpected token(s) preceding ';'
+  Matrix3.cpp
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(12): error C3646: 'vector3': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(33): error C2061: syntax error: identifier 'Vector3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(33): error C2535: 'Matrix3::Matrix3(void)': member function already defined or declared
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(30): note: see declaration of 'Matrix3::Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C2143: syntax error: missing ';' before '*'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(41): error C2061: syntax error: identifier 'Vector3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C3646: 'row': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C2059: syntax error: '('
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(56): error C2238: unexpected token(s) preceding ';'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C3646: 'col': unknown override specifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C2059: syntax error: '('
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(59): error C2238: unexpected token(s) preceding ';'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): error C2011: 'Matrix3': 'class' type redefinition
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(3): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(5): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(6): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(7): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(8): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(9): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(10): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(11): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(12): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(13): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(14): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(16): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(18): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(19): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(20): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(22): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(23): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(24): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(26): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(27): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(28): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(29): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(31): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(33): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(34): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(35): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(37): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(38): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(39): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(41): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(42): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(43): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(44): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(46): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(48): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(48): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(48): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(49): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(49): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(49): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(50): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(50): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(50): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(53): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(54): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(55): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(55): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(55): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(56): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(56): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(56): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(57): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(57): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(57): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(60): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(61): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2228: left of '.A11' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2228: left of '.A12' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(62): error C2228: left of '.A13' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2228: left of '.A21' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2228: left of '.A22' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(63): error C2228: left of '.A23' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2065: 'A31': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2228: left of '.A31' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2065: 'A32': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2228: left of '.A32' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2065: 'A33': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(64): error C2228: left of '.A33' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(67): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(68): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2065: 'A11': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2228: left of '.A11' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2065: 'A12': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2228: left of '.A12' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2065: 'A13': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(69): error C2228: left of '.A13' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2065: 'A21': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2027: use of undefined type 'Matrix3'
+  c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.h(9): note: see declaration of 'Matrix3'
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2228: left of '.A21' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2065: 'A22': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2228: left of '.A22' must have class/struct/union
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): error C2065: 'A23': undeclared identifier
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\matrix3.cpp(70): fatal error C1003: error count exceeds 100; stopping compilation
+  main.cpp
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\game.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Game.cpp
+c:\users\c00218721\desktop\matrix3-and-vector3-\project 1\matrix 3 proper\matrix 3 proper\game.h(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...

@@ -1,13 +1,18 @@
 //callum lynch
 //login:c00218721
 
-#pragma once
+#ifndef v3
+#define v3
+
+
 
 
 #include <iostream>
 #include <math.h>
 #include <string>
 #include "Matrix3.h"
+
+class Matrix3;
 
 class Vector3
 {
@@ -70,3 +75,4 @@ public:
 	 std::string ToString();
 };
 
+#endif
